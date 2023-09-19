@@ -1,0 +1,24 @@
+<br>
+<div class="container-sm align-items-center justify-content-center p-3">
+    <div class="border border-3 border-secondary rounded px-4 p-3">
+        <!-- reactive form 'newNoteIntake' to intake and append notes array in data.json-->
+        <form #newNoteIntake="ngForm" (ngSubmit)="onSubmit(newNoteIntake)">
+            <div class="row mx-auto" style="width: 750px">
+                <div class=".col-auto .me-auto">
+                    <h2 class="text-left">Title </h2>
+                    <!-- title input required -->
+                    <input ngModel name="title" #title="ngModel" class="firsttext" required>
+                </div>
+                <div class=".col-auto .me-auto">
+                    <h2 class="text-left">Body</h2>
+                    <!-- body input required -->
+                    <textarea class="form-control" ngModel name="body" #body="ngModel" class="bodytext"required>testing this i guess</textarea>
+                </div>
+            </div>
+            <div class="move">
+                <!-- submit 'newNoteIntake' form to add the note to data.json -->
+                <button type="submit" class="btn btn-outline-secondary" style="width:750px" [disabled]="newNoteIntake.form.invalid">Add Note</button>
+            </div>
+        </form>
+    </div>
+</div>

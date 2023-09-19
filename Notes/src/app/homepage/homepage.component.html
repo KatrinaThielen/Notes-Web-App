@@ -1,0 +1,46 @@
+<!-- Homepage nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container px-5">
+        <a class="navbar-brand text-white" routerLink="/home">Home</a>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a type="button" class="nav-link" routerLink="/home/new" routerLinkActive="active">Add New Note</a></li>
+            <li class="nav-item"><a type="button" class="nav-link" routerLink="/home/viewAll" routerLinkActive="active">View All Notes</a></li>
+            <li class="nav-item"><a type="button" class="nav-link" routerLink="/login" routerLinkActive="active">Logout</a></li>
+        </ul>
+    </div>  
+</nav>
+
+<!-- output router navigation -->
+<router-outlet></router-outlet>
+
+<!-- if no children clicked for homepage -->
+<div *ngIf="route.children.length === 0" class="container">
+    <!-- // three most recent notes to view -->
+    <app-recent-three></app-recent-three>
+    <!-- favorited notes view, lists all notes that are marked with 'favorite' as true -->
+    <div class="container-lg align-items-center justify-content-center p-3">
+        <div class="row">
+            <!-- column to have favorites title label -->
+            <div class=".col-auto .me-auto">
+                <h3>Favorited</h3>
+                <br>
+            </div>
+        </div>
+        <!-- column to display favorited notes -->
+        <div class="col-auto" *ngFor="let obj of notes">
+            <div *ngIf="obj.favorite === true" class="card text-white mb-4 bg-secondary nt-opacity">
+                <div class="card-body">
+                    <h3 class="card-title">{{obj?.title}}</h3>
+                    <div class="preview" style="display: inside; max-height: 50px; overflow: hidden;">
+                        {{obj?.body}}
+                    </div>
+                    <!-- link to click on card/note to navigate to single note view -->
+                    <a class="small text-white stretched-link" (click)="details(obj)"></a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+

@@ -1,0 +1,35 @@
+<app-header></app-header>
+<br>
+<div class="container text-center">
+    <!-- reactive form to intake user login called 'form-signin' -->
+    <form class="form-signin" #loginForm="ngForm" (ngSubmit)="onLogin(loginForm)">
+    <h1 class="form-signin-heading">Login</h1>
+    <br>
+      <div class="row g-3 justify-content-center">
+          <div class="col-auto">
+            <label for="username" class="col-form-label">Username</label>
+          </div>
+          <div class="col-auto">
+            <!-- username input required -->
+            <input ngModel #username="ngModel" name="username" type="text" id="username" class="form-control" required autofocus>
+          </div>
+      </div>
+
+      <div class="row g-3 justify-content-center">
+        <div class="col-auto">
+          <label for="password" class="col-form-label">Password</label>
+        </div>
+        <div class="col-auto">
+          <!-- password input required -->
+          <input ngModel #password="ngModel" name="password" type="password" id="password" class="form-control" aria-describedby="passwordHelpInline" required autofocus>
+        </div>
+      </div>
+      <br>
+      <!-- submit button for 'form-signin' is disabled when fields above are not entered -->
+      <button type="submit" class="btn btn-primary" [disabled]="loginForm.form.invalid">Login</button>
+    </form>
+</div>
+<!-- user navigation access to register form to input a new entry for login -->
+<br><div class="text-center form-text"> Don't have an account? <a routerLink="/register" routerLinkActive="active">Sign up here!</a></div>
+
+

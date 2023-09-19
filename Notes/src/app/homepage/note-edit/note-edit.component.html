@@ -1,0 +1,24 @@
+<br>
+<div class="container-sm align-items-center justify-content-center p-3">
+    <div class="border border-3 border-secondary rounded px-4 p-3">
+        <!-- reactive form for editing existing note -->
+        <form #editForm="ngForm" (ngSubmit)="onSubmit(editForm)">
+            <div class="row mx-auto" style="width: 750px">
+                <div class=".col-auto .me-auto">
+                    <h2 class="text-left">Title </h2>
+                    <!-- title input required -->
+                    <textarea ngModel #title="ngModel" [(ngModel)]="note.title" name="title" class="firsttext"required>{{note?.title}}</textarea>
+                </div>
+                <div class=".col-auto .me-auto">
+                    <h2 class="text-left">Content</h2>
+                    <!-- body input required -->
+                    <textarea ngModel [(ngModel)]="note.body" name="body" #body="ngModel" class="bodytext"required>{{note?.body}}</textarea>
+                </div>
+            </div>
+            <div class="move">
+                <!-- submit editForm to edit the body for selected note -->
+                <button type="submit" class="btn btn-outline-secondary" style="width:750px" [disabled]="editForm.form.invalid">Update Note</button>
+            </div>
+        </form>
+    </div>  
+</div>

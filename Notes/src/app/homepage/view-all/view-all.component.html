@@ -1,0 +1,20 @@
+<div class="container px-7"> 
+    <div class="row gx-4 gx-lg-5 align-items-center my-5 bg-secondary text-white">
+        <div class="col-lg-7"> <p class="navbar-brand m-0 text-center">All Notes</p> </div>
+        <div class="col-lg-5">
+            <p class="text-white m-0 navbar-brand">Search</p>
+            <!-- takes input and two-way binds the variable to use as search input for pipe -->
+            <input type="date" [(ngModel)]="dataCreated">
+        </div>  
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <!-- By adding the pipe on our *ngFor, we can seach for date-->
+        <div class="col-6 col-md-4" *ngFor="let obj of notes| dateSearch:dataCreated">
+            <div>
+                <app-notes [note]="obj"></app-notes>
+            </div>
+        </div>
+    </div>
+</div>

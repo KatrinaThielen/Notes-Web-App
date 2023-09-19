@@ -1,0 +1,9 @@
+.nt-opacity{
+    opacity: .5;
+    transition: .2s;
+}
+
+.nt-opacity:hover{
+    opacity: 1;
+    transition: .3s;
+}

@@ -1,0 +1,14 @@
+<div class="container-lg align-items-center justify-content-center p-3">
+    <div class="row">
+        <div class=".col-auto .me-auto">
+            <h3>Recent Notes</h3>
+            <br>
+        </div>
+        <!-- By adding the pipe on our *ngFor, we can take length of notes and retrieve the last three in the object array -->
+        <div class="col" *ngFor="let obj of (notes | slice:notes?.length - 3);">
+            <div class="container text-black">
+                <app-notes [note]="obj"></app-notes>
+            </div>
+        </div>
+    </div>
+</div>

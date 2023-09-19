@@ -1,0 +1,63 @@
+<app-header></app-header>
+<br>
+<div class="container text-center">
+  <!-- formGroup to intake user login called 'registerForm' -->
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm)">
+      <h1 class="form-signin-heading">Register User Account</h1>
+      <br>
+      <div class="row g-3 justify-content-center">
+        <div class="col-auto">
+            <label for="username" class="col-form-label">Username</label>
+          </div>
+        <div class="col-auto">
+          <!-- username input required -->
+          <input formControlName="username" class="form-control" >
+        </div>
+        <div class="col-auto">
+          <!-- username error message shown to user if username field is 'touched' and 'invalid'/empty -->
+          <span  class="form-text is-invalid" *ngIf="registerForm.get('username')?.touched && registerForm.get('username')?.invalid">
+            valid username is required
+          </span>
+        </div>
+      </div>
+      <div class="row g-3 justify-content-center">
+        <div class="col-auto">
+          <label for="password" class="col-form-label">Password</label>
+        </div>
+        <div class="col-auto">
+          <!-- password input required -->
+          <input ngModel formControlName="password" type="password" class="form-control">
+        </div>
+        <div class="col-auto" *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.invalid">
+          <!-- password error message shown to user if password field is 'touched' and 'invalid'/empty -->
+          <span class="form-text">
+            password is required
+          </span>
+        </div>
+      </div>
+      <div class="row g-3 justify-content-center">
+        <div class="col-auto">
+          <label for="confirmPassword" class="col-form-label">Confirm</label>
+        </div>
+        <div class="col-auto">
+          <!-- confirmPassword input required -->
+          <input formControlName="confirmPassword" type="password" class="form-control">
+        </div>
+        <!-- confirmPassword error shown to user if confirmPassword is 'touched' and 'invalid'/empty -->
+        <div class="col-auto" *ngIf="registerForm.get('confirmPassword')?.touched && registerForm.get('confirmPassword')?.invalid">
+          <span class="form-text"> Confirmed password is required!</span>
+        </div>
+      </div>
+    <br>
+    <!-- submit button for 'registerForm' is disabled when fields above are not entered -->
+    <button type="submit" class="btn btn-primary" [disabled]="registerForm.invalid" >Register Now!</button>
+  </form>
+</div>
+
+
+
+
+
+<br><div class="text-center form-text">Already have an account? <a routerLink="/login" routerLinkActive="active">Login here!</a></div>
+
+

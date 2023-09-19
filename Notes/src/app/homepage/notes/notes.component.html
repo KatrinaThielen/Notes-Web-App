@@ -1,0 +1,11 @@
+<!-- default note view pulled from JSON -->
+<div class="card text-white mb-4 bg-secondary nt-opacity">
+    <div class="card-body">
+        <h3 class="card-title">{{note?.title}}</h3>
+        <div class="preview" style="display: inside; max-height: 115px; overflow: hidden;">
+            {{note?.body}}
+        </div>
+        <a class="small text-white stretched-link" (click)="details(note)"></a>
+        <br>
+    </div>
+</div>
