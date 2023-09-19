@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "username": "sdfijsdf",
+      "password": "asd",
+      "id": 1
+    },
+    {
+      "username": "dalton",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "username": "cool-chef",
+      "password": "xyzxyz",
+      "id": 5
+    },
+    {
+      "username": "SillySally259",
+      "password": "word",
+      "id": 6
+    },
+    {
+      "username": "asdfasd",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "username": "hello",
+      "password": "hi",
+      "id": 8
+    },
+    {
+      "username": "katrina",
+      "password": "abc",
+      "id": 9
+    }
+  ],
+  "notes": [
+    {
+      "title": "This is a Title",
+      "body": "this note was taken on 08/03/2023. I am attempting to create plutonium in my laboratory. I want it to be magical. I hope that it is cool enough to go into human history textbooks. Do you think the internet will be recoverable one day after all goes away in 1 billion years? Yeah... me either. Anyway, ciao for now.",
+      "dataCreated": "08/03/2023",
+      "favorite": true,
+      "id": 1
+    },
+    {
+      "title": "A Good Day",
+      "body": "Today is a good day. I think that this note will be added to the JSON server and I will have made more progress towards this case study project. I have not yet added any CSS so the way it looks is quite honestly... an eye sore and wow it would be silly to keep it like this. Once this works, I'm going to take a nice time to add some CSS to make this nicer to look at. It kind of feels like spring cleaning. Like progress has been made but you never really took the time to sit down and organize and deep clean everything. so... here it goes I suppose. Cheers! <3",
+      "dataCreated": "2023-08-04T17:47:21.296Z",
+      "favorite": false,
+      "id": 3
+    },
+    {
+      "title": "Hello World!",
+      "body": "Ink my whole body I don't get a silly quack. Did you put that on? Ummmmm... *sigh* *yawn* *scratch* I'm looking into buying a four-plex as a real estate investment opportunity... BUT I would rather win the lottery this Friday. It's overheating. It's like a nuclear reacter in there.",
+      "dataCreated": "2023-08-08T01:58:01.221Z",
+      "favorite": true,
+      "id": 4
+    },
+    {
+      "title": "Tacos Yum",
+      "body": "I like tacos and they are good. I like my tacos best with flour and cheese. Kind of like a cheesy roll up. A queso conjunction that was always meant to be. The southern peanut butter and jelly. Yes. It is very good and I do be enjoying it. I am EDITING THIS YAY. Tacos are good and nice",
+      "dataCreated": "2023-08-08T01:59:07.108Z",
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "title": "WHOOAFNiwfEJOI",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. bloopjspijiasrfsfsadfsaf",
+      "dataCreated": "2023-08-08T03:36:46.491Z",
+      "favorite": false,
+      "id": 6
+    },
+    {
+      "title": "Cool Water",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in fermentum. Faucibus purus in massa tempor nec feugiat nisl pretium. Vivamus arcu felis bibendum ut. Adipiscing vitae proin sagittis nisl rhoncus mattis. Tellus rutrum tellus pellentesque eu tincidunt tortor. Sed viverra ipsum nunc aliquet bibendum enim. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Nibh venenatis cras sed felis eget. Tincidunt dui ut ornare lectus sit amet est.\n\nAnte in nibh mauris cursus mattis molestie a iaculis at. Libero volutpat sed cras ornare arcu. Pretium lectus quam id leo in. Feugiat sed lectus vestibulum mattis ullamcorper velit. Fames ac turpis egestas sed tempus urna et pharetra. Lacus sed viverra tellus in. Convallis a cras semper auctor neque vitae tempus quam. Nisl pretium fusce id velit ut tortor pretium viverra. Non blandit massa enim nec dui nunc mattis. Tristique senectus et netus et malesuada. Diam sit amet nisl suscipit adipiscing bibendum est. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Arcu felis bibendum ut tristique. Nibh sed pulvinar proin gravida hendrerit. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.\n\nDolor morbi non arcu risus quis varius quam quisque id. Lacus vestibulum sed arcu non odio euismod. Neque convallis a cras semper auctor neque vitae. Justo laoreet sit amet cursus sit amet dictum sit. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh cras pulvinar mattis nunc sed. Mi bibendum neque egestas congue quisque egestas. Bibendum neque egestas congue quisque egestas diam in. Vel turpis nunc eget lorem. Ac turpis egestas integer eget aliquet nibh. Nisl nunc mi ipsum faucibus vitae aliquet. Sed id semper risus in hendrerit. Consequat interdum varius sit amet mattis. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Praesent tristique magna sit amet purus gravida quis blandit. Mi proin sed libero enim sed faucibus.\n\nDonec massa sapien faucibus et molestie ac feugiat sed. Adipiscing at in tellus integer feugiat scelerisque. Sit amet volutpat consequat mauris nunc congue nisi. Dui accumsan sit amet nulla facilisi morbi tempus. Mauris ultrices eros in cursus turpis massa. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Suspendisse potenti nullam ac tortor vitae. Turpis cursus in hac habitasse platea dictumst quisque. Ultrices tincidunt arcu non sodales neque. Libero justo laoreet sit amet. Leo in vitae turpis massa sed elementum. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Metus aliquam eleifend mi in. Sollicitudin aliquam ultrices sagittis orci. Libero justo laoreet sit amet cursus. Accumsan in nisl nisi scelerisque. Feugiat in fermentum posuere urna nec. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.\n\nLobortis mattis aliquam faucibus purus in massa tempor. Adipiscing bibendum est ultricies integer quis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. At risus viverra adipiscing at in tellus. Sed id semper risus in hendrerit gravida. Lorem mollis aliquam ut porttitor leo. Diam maecenas sed enim ut sem. Ante in nibh mauris cursus. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Urna duis convallis convallis tellus id interdum velit. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Pulvinar pellentesque habitant morbi tristique. Risus nullam eget felis eget.\n\nMorbi tristique senectus et netus et. Mi eget mauris pharetra et ultrices. Tincidunt nunc pulvinar sapien et ligula. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tristique senectus et netus et malesuada fames ac turpis. Elementum facilisis leo vel fringilla est ullamcorper eget. Sociis natoque penatibus et magnis dis parturient. Vel facilisis volutpat est velit egestas. Auctor neque vitae tempus quam pellentesque nec. Tempus urna et pharetra pharetra. Tellus at urna condimentum mattis pellentesque id nibh. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. Et leo duis ut diam quam nulla porttitor.\n\nBibendum est ultricies integer quis auctor elit sed. Ante metus dictum at tempor commodo ullamcorper a lacus. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Magna fringilla urna porttitor rhoncus. Egestas maecenas pharetra convallis posuere morbi leo urna. Aliquet nibh praesent tristique magna sit. Lacinia at quis risus sed vulputate. Quis eleifend quam adipiscing vitae. Egestas dui id ornare arcu odio ut sem nulla. Nibh tortor id aliquet lectus proin. Netus et malesuada fames ac turpis egestas. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Semper quis lectus nulla at.",
+      "dataCreated": "2023-08-08T20:18:52.995Z",
+      "favorite": false,
+      "id": 7
+    },
+    {
+      "title": "wowwowo",
+      "body": "Ante in nibh mauris cursus mattis molestie a iaculis at. Libero volutpat sed cras ornare arcu. Pretium lectus quam id leo in. Feugiat sed lectus vestibulum mattis ullamcorper velit. Fames ac turpis egestas sed tempus urna et pharetra. Lacus sed viverra tellus in. Convallis a cras semper auctor neque vitae tempus quam. Nisl pretium fusce id velit ut tortor pretium viverra. Non blandit massa enim nec dui nunc mattis. Tristique senectus et netus et malesuada. Diam sit amet nisl suscipit adipiscing bibendum est. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Arcu felis bibendum ut tristique. Nibh sed pulvinar proin gravida hendrerit. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.\n\nJusto laoreet sit amet cursus sit amet dictum sit. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh cras pulvinar mattis nunc sed. Mi bibendum neque egestas congue quisque egestas. Bibendum neque egestas congue quisque egestas diam in. Vel turpis nunc eget lorem. Ac turpis egestas integer eget aliquet nibh. Nisl nunc mi ipsum faucibus vitae aliquet. Sed id semper risus in hendrerit. Consequat interdum varius sit amet mattis. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Praesent tristique magna sit amet purus gravida quis blandit. Mi proin sed libero enim sed faucibus.",
+      "dataCreated": "2023-08-08T22:44:10.036Z",
+      "favorite": false,
+      "id": 8
+    },
+    {
+      "title": "yay it works",
+      "body": "I think the view is all nice and good. I am done and this was a nice bootcamp. I am satisfied with how this turned out. thank you for having me :) \n\nJusto laoreet sit amet cursus sit amet dictum sit. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh cras pulvinar mattis nunc sed. Mi bibendum neque egestas congue quisque egestas. Bibendum neque egestas congue quisque egestas diam in. Vel turpis nunc eget lorem. Ac turpis egestas integer eget aliquet nibh. Nisl nunc mi ipsum faucibus vitae aliquet. Sed id semper risus in hendrerit. Consequat interdum varius sit amet mattis. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Praesent tristique magna sit amet purus gravida quis blandit. Mi proin sed libero enim sed faucibus.\n\nAdipiscing at in tellus integer feugiat scelerisque. Sit amet volutpat consequat mauris nunc congue nisi. Dui accumsan sit amet nulla facilisi morbi tempus. Mauris ultrices eros in cursus turpis massa. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Suspendisse potenti nullam ac tortor vitae.",
+      "dataCreated": "2023-08-09T04:57:41.091Z",
+      "favorite": true,
+      "id": 9
+    },
+    {
+      "title": "example",
+      "body": "Morbi tristique senectus et netus et. Mi eget mauris pharetra et ultrices. Tincidunt nunc pulvinar sapien et ligula. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tristique senectus et netus et malesuada fames ac turpis. Elementum facilisis leo vel fringilla est ullamcorper eget. Sociis natoque penatibus et magnis dis parturient. Vel facilisis volutpat est velit egestas. Auctor neque vitae tempus quam pellentesque nec. Tempus urna et pharetra pharetra. Tellus at urna condimentum mattis pellentesque id nibh. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. Et leo duis ut diam quam nulla porttitor.\n\n",
+      "dataCreated": "2023-08-09T04:58:32.498Z",
+      "favorite": false,
+      "id": 10
+    }
+  ]
+}
